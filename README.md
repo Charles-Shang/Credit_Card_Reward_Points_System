@@ -2,7 +2,7 @@
 
 This is an `Android/Kotlin` project that provides an android application to maximize the reward points based on customer’s monthly credit card transactions.
 
-Technical Stack for this project: `Kotlin`, `Android Application Development`, `MVVM architecture`, `interactive user-interface`, `dynamic programming`
+Key points for this project: `Kotlin`, `Android Application Development`, `MVVM architecture`, `interactive user-interface`, `dynamic programming`
 
 ## About the author
 
