@@ -20,8 +20,7 @@ Personal Email: `charles.jq.shang@gmail.com`
 * Pixel 4a
 
 ## Preview
-
-![alt text](https://github.com/Charles-Shang/Credit_Card_Reward_Points_System/applicationPreview?raw=true)
+<img src="https://raw.githubusercontent.com/Charles-Shang/Credit_Card_Reward_Points_System/master/applicationPreview.png" width="345" height="720">
 
 Note: When open up the project, it usually takes some time to download some android dependencies and plugins.
 
