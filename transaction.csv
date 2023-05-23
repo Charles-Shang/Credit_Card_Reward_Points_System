@@ -1,0 +1,11 @@
+tid,date,merchant_code,amount_cents
+T01,2021/05/01,sportcheck,21000
+T02,2021/05/02,sportcheck,8700
+T03,2021/05/03,tim_hortons,323
+T04,2021/05/04,tim_hortons,1267
+T05,2021/05/05,tim_hortons,2116
+T06,2021/05/06,tim_hortons,2211
+T07,2021/05/07,subway,1853
+T08,2021/05/08,subway,2153
+T09,2021/05/09,sportcheck,7326
+T10,2021/05/10,tim_hortons,1321

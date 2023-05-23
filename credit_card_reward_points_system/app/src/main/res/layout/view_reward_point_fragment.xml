@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_reward_point_fragment"
+        tools:context=".ViewRewardPointFragment">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:clickable="true"
+            android:id="@+id/uploadTransactionFileFloatingButton"
+            android:src="@drawable/baseline_file_upload_24"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="10dp" android:layout_marginBottom="10dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:clickable="true"
+            android:id="@+id/goToInformationButton"
+            android:src="@drawable/baseline_info_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp" app:backgroundTint="#03A9F4" app:rippleColor="#3F51B5"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/linearLayout">
+        <TextView
+                android:text="@string/total_monthly_reward_points"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" android:id="@+id/textView"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+        />
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/calculationInfoLabel"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+        </FrameLayout>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/transactionListContainer"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"/>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

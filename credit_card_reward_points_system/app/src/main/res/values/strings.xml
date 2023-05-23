@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">credit_card_reward_points_system</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="reward_point_calculation_rules">Reward Point Calculation Rules</string>
+    <string name="total_monthly_reward_points">Total Monthly Reward Points</string>
+</resources>

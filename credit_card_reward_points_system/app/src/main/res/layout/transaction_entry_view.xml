@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="280dp"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:text="transactionID"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp" android:id="@+id/transactionID"
+                        android:textStyle="bold"
+                        android:paddingStart="5dp" app:textAllCaps="false" android:paddingTop="5dp"/>
+                <TextView
+                        android:text="transactionDate"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp" android:id="@+id/transactionDate"
+                        android:paddingTop="5dp"/>
+                <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                />
+            </LinearLayout>
+            <TextView
+                    android:text="transactionMerchantCode"
+                    android:textStyle="italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" android:id="@+id/transactionMerchantCode"
+                    android:textAlignment="textStart"
+                    android:paddingStart="5dp"/>
+        </LinearLayout>
+        <TextView
+                android:text="transactionAmountCents"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" android:id="@+id/transactionAmountCents"
+                android:paddingTop="5dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
